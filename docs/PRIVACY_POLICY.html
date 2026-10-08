@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Noor ul Quran</title>
+    <style>
+        :root {
+            --primary: #0f766e;
+            --background: #f8fafc;
+            --surface: #ffffff;
+            --text: #1e293b;
+            --text-light: #64748b;
+            --border: #e2e8f0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--background);
+            color: var(--text);
+            line-height: 1.6;
+            margin: 0;
+            padding: 24px 16px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--surface);
+            border-radius: 16px;
+            padding: 32px 40px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+            border: 1px solid var(--border);
+        }
+
+        h1 {
+            color: var(--primary);
+            font-size: 2rem;
+            margin-top: 0;
+            margin-bottom: 8px;
+        }
+
+        .subtitle {
+            color: var(--text-light);
+            font-size: 0.95rem;
+            margin-bottom: 24px;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 16px;
+        }
+
+        h2 {
+            color: var(--primary);
+            font-size: 1.25rem;
+            margin-top: 28px;
+            margin-bottom: 12px;
+        }
+
+        p,
+        li {
+            color: var(--text);
+            font-size: 1rem;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin-top: 8px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .highlight-box {
+            background-color: #f0fdf4;
+            border-left: 4px solid var(--primary);
+            padding: 16px;
+            border-radius: 4px;
+            margin: 20px 0;
+        }
+
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border);
+            color: var(--text-light);
+            font-size: 0.875rem;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        <div class="subtitle">Effective Date: October 9, 2026 | App: Noor ul Quran</div>
+
+        <div class="highlight-box">
+            <strong>Summary:</strong> <strong>Noor ul Quran</strong> is designed with full user privacy in mind. We do
+            not require account registration, we do not track your activity, and we do not sell or transmit your
+            personal data to external servers. All personal progress, bookmarks, and settings remain stored locally on
+            your device.
+        </div>
+
+        <h2>1. Information Collection & Use</h2>
+        <p>Noor ul Quran does not create, maintain, or require user accounts. We do not collect personal identification
+            information such as your real name, email address, phone number, or physical address.</p>
+        <ul>
+            <li><strong>Profile Information:</strong> Any name or profile photo you set inside the app is saved locally
+                on your device in secure storage (SharedPreferences) and is never uploaded.</li>
+            <li><strong>Reading Progress & Notes:</strong> Your reading history, daily goals, memorized verses,
+                bookmarks, and personal reflections are stored strictly in a local database (SQLite) on your device.
+            </li>
+        </ul>
+
+        <h2>2. Internet & Network Usage</h2>
+        <p>The app connects to the internet strictly to fetch Quranic text, translations, and recitation audio from
+            established open APIs and Content Delivery Networks (CDNs):</p>
+        <ul>
+            <li>Quran text & translations: <code>api.alquran.cloud</code></li>
+            <li>Audio recitations: <code>cdn.islamic.network</code>, <code>api.quran.com</code>,
+                <code>mp3quran.net</code>, <code>quranicaudio.com</code></li>
+        </ul>
+        <p>These requests do not carry any personal identifiers or account tokens. Standard web server logs (IP address
+            and requested audio file) may be processed by these CDN providers solely to deliver media streams.</p>
+
+        <h2>3. Device Permissions</h2>
+        <p>Noor ul Quran requests only essential Android permissions required for media playback and optional reminders:
+        </p>
+        <ul>
+            <li><strong>Internet Access (<code>INTERNET</code>):</strong> Needed to stream audio recitations and fetch
+                Quran text.</li>
+            <li><strong>Foreground Service (<code>FOREGROUND_SERVICE_MEDIA_PLAYBACK</code>):</strong> Keeps recitation
+                playing smoothly when the app is in the background or screen is locked.</li>
+            <li><strong>Wake Lock (<code>WAKE_LOCK</code>):</strong> Prevents audio stuttering during background Quran
+                listening.</li>
+            <li><strong>Notifications (<code>POST_NOTIFICATIONS</code> - Optional):</strong> Used solely to trigger
+                local scheduled daily reading reminders on your phone. No notifications are sent from external ad or
+                marketing servers.</li>
+            <li><strong>Storage / Camera Access:</strong> Used strictly when you explicitly choose a photo from your
+                gallery or camera to use as your local profile picture.</li>
+        </ul>
+
+        <h2>4. Data Security & Storage</h2>
+        <p>Because all user data resides locally on your device, your data security is tied to your physical device
+            security. Uninstalling the app completely removes all locally stored data, including bookmarks and audio
+            downloads.</p>
+
+        <h2>5. Advertising & Analytics</h2>
+        <p>Noor ul Quran is completely ad-free and tracker-free:</p>
+        <ul>
+            <li>No third-party ad networks (e.g., Google AdMob, Unity Ads) are integrated.</li>
+            <li>No analytics tools (e.g., Firebase Analytics, Mixpanel, AppsFlyer) are included.</li>
+            <li>No crash logging tools send data off your device.</li>
+        </ul>
+
+        <h2>6. Children's Privacy</h2>
+        <p>Our application is suitable for all ages, including children under the age of 13. We do not knowingly collect
+            or solicit any personal information from children.</p>
+
+        <h2>7. Changes to This Privacy Policy</h2>
+        <p>We may update our Privacy Policy from time to time. Any changes will be posted on this page with an updated
+            effective date.</p>
+
+        <h2>8. Contact Us</h2>
+        <p>If you have any questions or suggestions regarding this Privacy Policy, please contact Innovexa Technologies
+            at:</p>
+        <p><strong>Email:</strong> innovexa.technologies01@gmail.com<br>
+            <strong>Publisher:</strong> Innovexa Technologies
+        </p>
+
+        <div class="footer">
+            &copy; 2026 Innovexa Technologies. All rights reserved.
+        </div>
+    </div>
+</body>
+
+</html>
