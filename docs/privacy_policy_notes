@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy Policy for the NoteSphere app by Innovexa Technologies.">
+  <meta name="color-scheme" content="light">
+  <title>NoteSphere Privacy Policy | Innovexa Technologies</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #242338;
+      background: #f5f5fa;
+      line-height: 1.65;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 32px 16px;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 36px;
+      background: #fff;
+      border: 1px solid #e8e7f0;
+      border-radius: 16px;
+      box-shadow: 0 8px 32px rgb(30 25 70 / 7%);
+    }
+
+    h1, h2 {
+      line-height: 1.25;
+      color: #4438a8;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(1.8rem, 5vw, 2.4rem);
+    }
+
+    h2 {
+      margin: 30px 0 10px;
+      font-size: 1.25rem;
+    }
+
+    p, ul {
+      margin: 10px 0;
+    }
+
+    li {
+      margin: 5px 0;
+    }
+
+    a {
+      color: #4438a8;
+      overflow-wrap: anywhere;
+    }
+
+    .updated {
+      margin: 0 0 28px;
+      color: #5d5b6b;
+    }
+
+    footer {
+      margin-top: 32px;
+      padding-top: 20px;
+      border-top: 1px solid #e8e7f0;
+      color: #5d5b6b;
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 560px) {
+      body {
+        padding: 16px 10px;
+      }
+
+      main {
+        padding: 24px 20px;
+        border-radius: 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>NoteSphere Privacy Policy</h1>
+      <p class="updated">
+        Effective date: November 7, 2026<br>
+        App: NoteSphere<br>
+        Developer: Innovexa Technologies
+      </p>
+    </header>
+
+    <p>
+      This Privacy Policy explains how NoteSphere handles information when you
+      use the app. It describes the app as currently implemented. If the app's
+      features, dependencies, or data practices change, this policy must be
+      updated before the updated app is released.
+    </p>
+
+    <h2>Information stored by the app</h2>
+    <p>
+      NoteSphere lets you create notes and manage category names. The app stores
+      the following information on your device so its features work:
+    </p>
+    <ul>
+      <li>Note titles and note text.</li>
+      <li>Category names.</li>
+      <li>Notes and categories moved to the in-app Trash, until restored or permanently deleted.</li>
+      <li>App preferences, such as your selected light/dark mode and theme color, and a first-launch setting.</li>
+    </ul>
+    <p>
+      The current app stores this information using Android's local
+      <code>SharedPreferences</code> storage. The inspected app code does not
+      send this content to a NoteSphere developer-operated server, and the app
+      does not require an account or provide cloud synchronization.
+    </p>
+
+    <h2>How information is used</h2>
+    <p>
+      Locally stored information is used to display and manage your notes,
+      search your notes, manage category names and Trash, and remember your
+      preferences. Note search runs within the app on your device.
+    </p>
+
+    <h2>Sharing, advertising, and analytics</h2>
+    <p>
+      The current app code does not integrate advertising, analytics, or social
+      sharing features, and does not send note content or category names to the
+      developer. This statement must be reviewed again if SDKs, services, or
+      features are added in a future release.
+    </p>
+    <p>
+      Google Play and Android may process information in connection with
+      installing, updating, securing, backing up, or operating your device.
+      Those services are governed by Google's and your device provider's own
+      terms and privacy information, not this policy.
+    </p>
+
+    <h2>Retention and deletion</h2>
+    <p>
+      Your notes, category names, and preferences remain in the app's local
+      storage until you remove them or the app's local data is cleared. Items in
+      Trash remain stored until restored or permanently deleted from Trash.
+      Uninstalling the app normally removes its local app data from the device.
+    </p>
+    <p>
+      Android device backup settings or other device-level backup services may
+      affect whether app data is backed up or restored. NoteSphere does not
+      itself provide or manage a cloud backup service. Check your device's
+      backup settings if you want to control device-level backups.
+    </p>
+
+    <h2>Security</h2>
+    <p>
+      The app stores its data locally using the platform's preferences storage.
+      The current app does not implement a separate encryption or password-lock
+      feature. Protect access to your device and avoid using the app to store
+      information that requires a specific security or encryption guarantee.
+    </p>
+
+    <h2>Children's privacy</h2>
+    <p>
+      NoteSphere is a general-purpose notes app and is not specifically designed
+      for children. The developer does not knowingly collect personal
+      information from children through a developer-operated service. If the
+      app's intended audience or data practices change, this section and the
+      Play Console declarations must be reviewed.
+    </p>
+
+    <h2>Changes to this policy</h2>
+    <p>
+      This policy may be updated when the app or its data practices change. The
+      current version and its effective date will be published at the privacy
+      policy URL provided on the Google Play Store listing.
+    </p>
+
+    <h2>Contact</h2>
+    <p>For privacy questions or requests, contact Innovexa Technologies:</p>
+    <ul>
+      <li>Email: <a href="mailto:innovexa.technologies01@gmail.com">innovexa.technologies01@gmail.com</a></li>
+      <li>Website: <a href="https://innovexa-technologies.vercel.app">innovexa-technologies.vercel.app</a></li>
+      <li>Privacy policy URL: <a href="https://innovexa-technologies.vercel.app/privacy-policy.html">https://innovexa-technologies.vercel.app/privacy-policy.html</a></li>
+    </ul>
+
+    <footer>
+      This policy should match the final released app and the Google Play Data
+      safety form. Please contact us if you have questions about this policy.
+    </footer>
+  </main>
+</body>
+</html>
